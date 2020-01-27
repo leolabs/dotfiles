@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Install Homebrew
+echo "🍻 Installing Homebrew..."
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install Oh My Zsh
+echo "💻 Installing Oh My Zsh..."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install all Brew packages
+echo "📦 Installing all Homebrew packages..."
+brew bundle
