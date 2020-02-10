@@ -2,12 +2,15 @@ tap "cloudflare/cloudflare"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
 tap "homebrew/core"
 tap "jtyr/repo"
 # Automatic configure script builder
 brew "autoconf"
 # Tool for generating GNU Standards-compliant Makefiles
 brew "automake"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Distributed revision control system
@@ -32,8 +35,6 @@ brew "mas"
 brew "node"
 # Manage multiple Node.js versions
 brew "nvm"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # Parse HTML at the command-line
 brew "pup"
 # Rsync for cloud storage
@@ -56,6 +57,8 @@ brew "tokei"
 brew "tree"
 # Manage the desktop wallpaper
 brew "wallpaper"
+# Yet Another Dotfiles Manager
+brew "yadm"
 # Download YouTube videos from the command-line
 brew "youtube-dl"
 cask "ableton-live-suite"
@@ -67,8 +70,10 @@ cask "bartender"
 cask "beamer"
 cask "behringer-x32-edit"
 cask "daisydisk"
+cask "discord"
 cask "docker"
 cask "firefox"
+cask "font-hasklig"
 cask "franz"
 cask "github"
 cask "google-backup-and-sync"
@@ -79,8 +84,11 @@ cask "iina"
 cask "imageoptim"
 cask "istat-menus"
 cask "jumpshare"
+cask "krisp"
 cask "little-snitch"
+cask "native-access"
 cask "paste"
+cask "qlcolorcode"
 cask "rescuetime"
 cask "screaming-frog-seo-spider"
 cask "skype"
@@ -98,9 +106,7 @@ cask "wireshark"
 mas "Compressor", id: 424390742
 mas "Dynaper", id: 1435296403
 mas "Final Cut Pro", id: 424389933
-mas "Frame.io", id: 992958444
 mas "HueParty", id: 792963035
-mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Logic Pro X", id: 634148309
 mas "Magnet", id: 441258766
@@ -112,4 +118,3 @@ mas "Spark", id: 1176895641
 mas "The Unarchiver", id: 425424353
 mas "Theine", id: 955848755
 mas "WiFi Explorer", id: 494803304
-mas "Xcode", id: 497799835
