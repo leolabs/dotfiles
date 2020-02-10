@@ -8,6 +8,14 @@ echo "🍻 Installing Homebrew..."
 echo "💻 Installing Oh My Zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Install Syntax Highlighting for ZSH
+echo "🔌 Installing Syntax Highlighting for Oh My Zsh..."
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "$ZSH_CUSTOM/plugins/zsh-syntax-highlighting"
+
+# Install AutoSuggestions for ZSH
+echo "🔌 Installing AutoSuggestions for Oh My Zsh..."
+git clone https://github.com/zsh-users/zsh-autosuggestions "$ZSH_CUSTOM/plugins/zsh-autosuggestions"
+
 # Install all Brew packages
 echo "📦 Installing all Homebrew packages..."
 brew bundle
